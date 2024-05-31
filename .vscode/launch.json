@@ -1,0 +1,91 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "AnsweringQuiz",
+            "request": "launch",
+            "mainClass": "com.studysmartjavafx/com.studysmartjavafx.AnsweringQuiz",
+            "projectName": "studysmartjavafx"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "com.studysmartjavafx/com.studysmartjavafx.App",
+            "projectName": "studysmartjavafx"
+        },
+        {
+            "type": "java",
+            "name": "BookingDestination",
+            "request": "launch",
+            "mainClass": "com.studysmartjavafx/com.studysmartjavafx.BookingDestination",
+            "projectName": "studysmartjavafx"
+        },
+        {
+            "type": "java",
+            "name": "CLIbase",
+            "request": "launch",
+            "mainClass": "com.studysmartjavafx/com.studysmartjavafx.CLIbase",
+            "projectName": "studysmartjavafx"
+        },
+        {
+            "type": "java",
+            "name": "DataStorage",
+            "request": "launch",
+            "mainClass": "com.studysmartjavafx/com.studysmartjavafx.DataStorage",
+            "projectName": "studysmartjavafx"
+        },
+        {
+            "type": "java",
+            "name": "DatabaseProject",
+            "request": "launch",
+            "mainClass": "com.studysmartjavafx/com.studysmartjavafx.DatabaseProject",
+            "projectName": "studysmartjavafx"
+        },
+        {
+            "type": "java",
+            "name": "Educators_View",
+            "request": "launch",
+            "mainClass": "com.studysmartjavafx/com.studysmartjavafx.Educators_View",
+            "projectName": "studysmartjavafx"
+        },
+        {
+            "type": "java",
+            "name": "FriendRequestDatabase",
+            "request": "launch",
+            "mainClass": "com.studysmartjavafx/com.studysmartjavafx.FriendRequestDatabase",
+            "projectName": "studysmartjavafx"
+        },
+        {
+            "type": "java",
+            "name": "TestCLI",
+            "request": "launch",
+            "mainClass": "com.studysmartjavafx/com.studysmartjavafx.TestCLI",
+            "projectName": "studysmartjavafx"
+        },
+        {
+            "type": "java",
+            "name": "YoungStudent",
+            "request": "launch",
+            "mainClass": "com.studysmartjavafx/com.studysmartjavafx.YoungStudent",
+            "projectName": "studysmartjavafx"
+        },
+        {
+            "type": "java",
+            "name": "parentChildDatabase",
+            "request": "launch",
+            "mainClass": "com.studysmartjavafx/com.studysmartjavafx.parentChildDatabase",
+            "projectName": "studysmartjavafx"
+        }
+    ]
+}

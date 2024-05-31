@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.ColorAdjust?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.effect.GaussianBlur?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<VBox prefHeight="510.0" prefWidth="927.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="429.0" prefWidth="927.0" VBox.vgrow="ALWAYS">
+         <children>
+            <ImageView fitHeight="624.0" fitWidth="936.0" layoutX="-9.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Icons/6213932.jpg" />
+               </image>
+               <effect>
+                  <ColorAdjust brightness="-0.7" contrast="0.04" hue="0.04" saturation="0.04" />
+               </effect>
+            </ImageView>
+            <AnchorPane id="leftPaneMainHomeScreen" layoutX="-35.0" opacity="0.46" prefHeight="624.0" prefWidth="258.0" style="-fx-background-color: black; -fx-border-radius: 10; -fx-border-width: 10;" stylesheets="@application.css">
+               <effect>
+                  <GaussianBlur radius="0.0" />
+               </effect>
+            </AnchorPane>
+            <AnchorPane id="leftPaneMainHomeScreen" layoutX="-22.0" layoutY="-4.0" prefHeight="624.0" prefWidth="258.0" style="-fx-background-color: transparent; -fx-border-radius: 10; -fx-border-width: 10;" stylesheets="@application.css">
+               <effect>
+                  <GaussianBlur radius="0.0" />
+               </effect>
+               <children>
+                  <Line endX="71.80000305175781" layoutX="144.0" layoutY="167.0" startX="-92.99998474121094" stroke="WHITE" strokeWidth="3.0" />
+                  <ImageView fitHeight="258.0" fitWidth="258.0" layoutX="9.0" layoutY="-36.0" pickOnBounds="true">
+                     <image>
+                        <Image url="@Icons/4-removebg-preview.png" />
+                     </image>
+                     <effect>
+                        <DropShadow height="100.54" radius="50.355000000000004" spread="0.43" width="102.88" />
+                     </effect>
+                  </ImageView>
+                  <ImageView fitHeight="33.0" fitWidth="35.0" layoutX="177.0" layoutY="230.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@Icons/person.png" />
+                     </image>
+                     <effect>
+                        <ColorAdjust brightness="1.0" />
+                     </effect>
+                  </ImageView>
+                  <ImageView fitHeight="33.0" fitWidth="35.0" layoutX="177.0" layoutY="296.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@Icons/ideas.png" />
+                     </image>
+                     <effect>
+                        <ColorAdjust brightness="1.0" />
+                     </effect>
+                  </ImageView>
+                  <ImageView fitHeight="33.0" fitWidth="35.0" layoutX="177.0" layoutY="365.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@Icons/calendar.png" />
+                     </image>
+                     <effect>
+                        <ColorAdjust brightness="1.0" />
+                     </effect>
+                  </ImageView>
+                  <ImageView fitHeight="33.0" fitWidth="35.0" layoutX="177.0" layoutY="436.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@Icons/competition.png" />
+                     </image>
+                     <effect>
+                        <ColorAdjust brightness="1.0" />
+                     </effect>
+                  </ImageView>
+                  <Button layoutX="54.0" layoutY="500.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="168.0" style="-fx-background-color: transparent; -fx-alignment: left; -fx-border-radius: 10; -fx-border-color: white;" text="  Notifications" textFill="WHITE" textOverrun="CENTER_ELLIPSIS">
+                     <font>
+                        <Font name="System Bold" size="17.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+                  <ImageView fitHeight="27.0" fitWidth="33.0" layoutX="180.0" layoutY="514.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@Icons/notification.png" />
+                     </image>
+                     <effect>
+                        <ColorAdjust brightness="1.0" />
+                     </effect>
+                  </ImageView>
+                  <Button layoutX="54.0" layoutY="429.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="168.0" style="-fx-background-color: transparent; -fx-alignment: left; -fx-border-radius: 10; -fx-border-color: white;" text=" Board" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="25.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+                  <Button layoutX="54.0" layoutY="358.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="168.0" style="-fx-background-color: transparent; -fx-alignment: left; -fx-border-radius: 10; -fx-border-color: white;" text=" Events" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="25.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+                  <Button layoutX="54.0" layoutY="288.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="168.0" style="-fx-background-color: transparent; -fx-alignment: left; -fx-border-radius: 10; -fx-border-color: white;" text=" Quiz" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="25.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+                  <Button layoutX="54.0" layoutY="223.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="168.0" style="-fx-background-color: transparent; -fx-alignment: left; -fx-border-radius: 10; -fx-border-color: white;" text=" Profile" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="25.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+               </children>
+            </AnchorPane>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1a2d3e" height="416.0" layoutX="246.0" layoutY="178.0" opacity="0.69" stroke="#0c2236" strokeType="INSIDE" strokeWidth="5.0" width="640.0">
+               <effect>
+                  <GaussianBlur radius="12.36" />
+               </effect>
+            </Rectangle>
+            <Label layoutX="246.0" layoutY="65.0" prefHeight="88.0" prefWidth="346.0" style="-fx-alignment: left;" text="Profile Page" textFill="WHITE">
+               <font>
+                  <Font name="Nexa Heavy" size="54.0" />
+               </font>
+               <effect>
+                  <DropShadow />
+               </effect>
+            </Label>
+            <Line endX="203.39996337890625" layoutX="361.0" layoutY="154.0" startX="-92.99998474121094" stroke="WHITE" strokeWidth="3.0" />
+            <Circle fill="#00000055" layoutX="349.0" layoutY="281.0" radius="82.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="3.0" />
+            <Label layoutX="450.0" layoutY="230.0" text="Adam Razali" textFill="WHITE">
+               <font>
+                  <Font name="Nexa Heavy" size="33.0" />
+               </font>
+               <effect>
+                  <DropShadow />
+               </effect>
+            </Label>
+            <Label layoutX="451.0" layoutY="286.0" text="Student" textFill="WHITE">
+               <font>
+                  <Font name="Nexa Extra Light" size="18.0" />
+               </font>
+               <effect>
+                  <DropShadow />
+               </effect>
+            </Label>
+            <Line endX="203.39996337890625" layoutX="543.0" layoutY="276.0" startX="-92.99998474121094" stroke="WHITE" strokeWidth="3.0">
+               <effect>
+                  <DropShadow />
+               </effect>
+            </Line>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="703.0" layoutY="321.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Icons/6213305.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="699.0" layoutY="458.0" text="100.46 , 2345.23" textFill="WHITE">
+               <font>
+                  <Font name="Nexa Extra Light" size="19.0" />
+               </font>
+               <effect>
+                  <DropShadow />
+               </effect>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</VBox>
